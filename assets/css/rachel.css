@@ -1,0 +1,51 @@
+*{
+  margin: 1em;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(/images/rachelPg.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form {
+  background-color: #292929;
+  color: aliceblue;
+  font-size: 1rem;
+  padding: 2em;
+  border-radius: 1em;
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  width: 100%;
+  text-align: left;
+}
+input {
+  width: 100%;
+  font-size: 1.5em;
+}
+.button {
+  background-color: #367dcf;
+  color: aliceblue;
+  border: none;
+  border-radius: 1em;
+  padding: 1em;
+  font-size: large;
+  margin: 1em;
+  cursor: pointer;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 1em;
+}
